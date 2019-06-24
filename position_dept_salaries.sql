@@ -1,8 +1,5 @@
 #Average salary for each position in each department
-select * from departments;
-select * from titles;
-select * from dept_emp;
-
+USE employees;
 
 SELECT d.dept_name, t.title, ROUND(AVG(salary), 0) AS avg_salary
 FROM current_dept_emp as cde
