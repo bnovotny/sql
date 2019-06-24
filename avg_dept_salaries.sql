@@ -1,19 +1,7 @@
 #First practice of queries with employee data
+#Creates view of average salary by department
 
 use employees;
-
-select * from salaries;
-select * from departments;
-select * from dept_emp;
-select * from current_dept_emp;
-select * from dept_emp_latest_date;
-
-select * from dept_emp
-where to_date='9999-01-01';
-
-select * 
-from salaries
-where to_date='9999-01-01';
 
 /*
 Create a list of the current average salaries for each department,
